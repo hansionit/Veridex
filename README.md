@@ -15,7 +15,7 @@ SDK接口指的是Android官方开发文档中声明的方法,即[文档地址](
 * dark greylist 深灰名单
 * blacklist 黑名单
 
-### 在Android Q版本,为了更精准的控制与兼容,非SDK接口分类
+### 在Android Q版本,为了更精准的控制与兼容,对非SDK接口分类进行修改,修改后如下所示:
 
 * whitelist 白名单 可随意调用
 * greylist 灰名单  警告
