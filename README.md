@@ -1,17 +1,21 @@
 
-> 在Android P版本,Google对非SDK接口增加了管控
-> 
-> SDK接口指的是Android官方开发文档中声明的方法,即[文档地址](https://developer.android.google.cn/reference/packages) 中所能查询到的API,除了这些,其他的API都是非SDK接口
+# Veridex
+
+## 前言
+在Android P版本,Google对非SDK接口增加了管控
+
+SDK接口指的是Android官方开发文档中声明的方法,即[文档地址](https://developer.android.google.cn/reference/packages) 中所能查询到的API,除了这些,其他的API都是非SDK接口
 
 
+## 非SDK接口分类
 
-在Android P版本,非SDK接口分类
+### 在Android P版本,非SDK接口分类
 
 * light grelist 浅灰名单 
 * dark greylist 深灰名单
 * blacklist 黑名单
 
-在Android Q版本,为了更精准的控制与兼容,非SDK接口分类
+### 在Android Q版本,为了更精准的控制与兼容,非SDK接口分类
 
 * whitelist 白名单 可随意调用
 * greylist 灰名单  警告
@@ -29,10 +33,11 @@ Google提供了一个静态检测工具veridex[下载地址 需科学上网](htt
 ## 使用方法
 
 根据个人所使用的系统进行区分使用,进入系统对应的目录,输入:
-> ./appcompat.sh --dex-file=test.apk --imprecise
 
+```
+./appcompat.sh --dex-file=test.apk --imprecise
 
----
+```
 
 
 
